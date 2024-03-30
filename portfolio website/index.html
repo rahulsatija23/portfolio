@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="other.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+   
+    <nav id="desktop-nav">
+        <div class="logo">Rahul Satija</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>  
+                
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rahul Satija</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#About" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+    </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assests and images/about pic.jpeg" alt="Rahul Satija Profile Picture" class="tomakepicround">
+        </div>
+        <div class="section__text">
+            <p class="section__text_p1">Hello,I'm</p>
+            <h1 class="title">Rahul Satija</h1>
+           <p class="section__text__p2">
+                Full Stack Java Developer 
+            </p>
+             <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests and images/rahul_cv.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="window.location.href='./#contact'">Contact Info</button>
+             </div>
+             <div id="socials-container">
+<img src="./assests and images/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href = 'https://www.linkedin.com/in/rahul-satija-a3207422a/'">
+<img src="./assests and images/github.png" alt="My Github Profile" class="icon" onclick="location.href = 'https://github.com/rahulsatija23'">
+             </div>
+        </div>
+    </section>
+
+<section id="about">
+    <p class="section__text__p1">Get to Know More</p>
+
+<h1 class="title">About Me</h1>
+<div class="section-container">
+
+<div class="section__pic-container">
+    <img src="./assests and images/about pic 1.jpeg" alt="Profile Picture" class="about-pic">
+</div>
+
+<div class="about-details-container">
+    <div class="about-containers">
+        <div class="details-container">
+            <img src="./assests and images/experience.png" alt="experience-icon" class="icon">
+            <h3>Experience</h3>
+            <p>Self-taught developer: 6 months <br> crafting personal coding projects.
+            </p>
+        </div>
+<div class="details-container">
+    <img src="./assests and images/education.png" alt="experience-icon" class="icon">
+            <h3>Education</h3>
+            <p>B.tech in Computer Science<br>(2020-2024)
+            </p>
+</div>
+    </div>
+    <div class="text-container">
+        <p>Pursuing a B.Tech in Computer Science at Maharshi Dayanand University, Rohtak, I am a passionate Full Stack Java Developer and Cyber Security Enthusiast. Eager to explore emerging technologies, I strive for continuous learning, community collaboration, and making a positive impact in the ever-evolving tech landscape.</p>
+    </div>
+</div>
+</div>
+<img src="./assests and images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#experience'">
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Tailwind CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Javascript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+           
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Core Java</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3> Spring Boot</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Hibernate</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            
+            <article>
+                <img
+                  src="./assests and images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mysql</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests and images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microservices</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+              
+            <article>
+              <img
+                src="./assests and images/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git </h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assests and images/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assests and images/project 1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title" style="margin-top: 10px;">Project One</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/rahulsatija23'"
+            >
+              Github
+            </button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assests and images/project 2.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/rahulsatija23'"
+            >
+              Github
+            </button>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assests and images/project 3.webp"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/rahulsatija23'"
+            >
+              Github
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assests and images/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assests and images/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="rahulsatija35@gmail.com">rahulsatija35@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assests and images/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/rahul-satija-a3207422a/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Rahul Satija. All Rights Reserved.</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
